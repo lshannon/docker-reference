@@ -15,6 +15,14 @@ sudo docker ps -a
 
 ```
 
+## See All Images
+
+```shell
+
+sudo docker images
+
+```
+
 ## Stop A Running Container
 
 ```shell
