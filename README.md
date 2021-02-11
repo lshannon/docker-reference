@@ -5,9 +5,12 @@ The following are basic docker commands for local development use. The sudo is a
 ## Terminology
 
 Image: The template for the Container (Dockerfile)
+
 Container: Built with the Docker Build command.
 
-## See All Containers
+## Container Commands
+
+### List All Containers
 
 ```shell
 
@@ -15,15 +18,8 @@ sudo docker ps -a
 
 ```
 
-## See All Images
 
-```shell
-
-sudo docker images
-
-```
-
-## Stop A Running Container
+### Stop A Running Container
 
 ```shell
 
@@ -31,10 +27,29 @@ sudo docker stop <Container ID>
 
 ```
 
-## Remove A Container
+### Remove A Container
 
 ```shell
 
 sudo docker rm <Container ID>
 
 ```
+
+## Image Commands
+
+### See All Images
+
+```shell
+
+sudo docker images
+
+```
+
+### Delete An Image
+
+```shell
+
+
+
+```
+
